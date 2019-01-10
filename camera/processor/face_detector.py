@@ -45,7 +45,7 @@ class FaceDetector(object):
 	# 顔の数を描画する
         for (x,y,w,h) in faces:
             cv2.rectangle(frame,(x,y),(x+w,y+h),(255,0,0),2)
-            cv2.putText(frame,str(len(faces),(12,25),font,1,(255,255,255),2)
+            cv2.putText(frame,str(len(faces),(12,20),font,1,(255,255,255),2)
             
 
         # frameを戻り値として返す
